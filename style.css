@@ -1,7 +1,38 @@
-p {
-  color: black;
+body {
+  font-family: "M PLUS Code Latin", sans-serif;
+  margin: 0px;
+}
+header {
+  margin: 0px;
+}
+h1 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #a6c36f;
+  text-shadow: black 0.01em 0.01em 0.1em;
 }
 
-h1 {
-  color: black;
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #335145;
+  height: 40px;
+}
+.banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #335145;
+}
+
+.gif {
+  width: 33px;
+  height: 39px;
+}
+
+.close {
+  margin-right: 2%;
 }
