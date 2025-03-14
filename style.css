@@ -4,12 +4,17 @@ body {
 }
 header {
   margin: 0px;
+  margin-bottom: 0;
 }
 h1 {
   font-size: 16px;
   font-weight: 600;
   color: #a6c36f;
   text-shadow: black 0.01em 0.01em 0.1em;
+}
+main {
+  background-color: #1e352f;
+  margin-top: 0px;
 }
 
 .logo {
