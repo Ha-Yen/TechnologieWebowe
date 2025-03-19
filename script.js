@@ -1,7 +1,6 @@
-const bannerGifs = document.querySelectorAll(".banner-gif");
-
-bannerGifs.forEach((gif) => {
-  gif.addEventListener("dragstart", (e) => {
-    e.preventDefault();
+const undraggableImages = document.querySelectorAll(".undraggable");
+undraggableImages.forEach((img) => {
+  img.addEventListener("dragstart", (event) => {
+    event.preventDefault();
   });
 });
