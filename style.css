@@ -22,12 +22,12 @@ body {
 .frame-outer {
   background-color: var(--green-40);
   height: 100vh;
-  width: 30%;
-  min-width: 390px;
+  width: 390px;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
+  overflow: hidden;
 }
 .frame-inner {
   background-color: var(--green-50);
@@ -38,6 +38,7 @@ body {
   bottom: 10px;
   transform: translateX(-50%);
   z-index: 1;
+  overflow: hidden;
 }
 .frame-outer::after {
   content: "";
@@ -46,15 +47,16 @@ body {
   left: 10px;
   width: calc(100% - 20px);
   height: 3%;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.5);
   filter: blur(15px);
-  z-index: 2;
+  z-index: 1;
 }
 .frame-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 40px;
+  overflow: hidden;
 }
 .banner {
   display: flex;
@@ -74,4 +76,31 @@ body {
 }
 .close {
   padding-right: 10px;
+}
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  z-index: 0;
+}
+.cover {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 2%;
+
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.blur {
+  width: 100%;
+  height: 100%;
+  filter: blur(80px);
+  opacity: 0.5;
+  position: relative;
+  z-index: 0;
 }
