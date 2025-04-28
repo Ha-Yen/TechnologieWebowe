@@ -8,30 +8,60 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100..700&display=swap");
     </style>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <main>
-      <div class="frame">
-        <div class="banner">
-          <div style="width: 24px"></div>
-          <div class="logo">
-            <img class="gif" src="src\plant.gif" />
-            <h1>Plantify</h1>
-            <img class="gif" src="src\plant.gif" />
+      <div class="frame-outer">
+        <div class="frame-top">
+          <div class="banner-left"></div>
+          <div class="banner">
+            <img class="banner-gif undraggable" src="src/plant.gif" />
+            Plantify
+            <img class="banner-gif undraggable" src="src/plant.gif" />
           </div>
-          <img src="src\placeholderClose.png" />
+          <img class="close undraggable" src="src/placeholderClose.png" />
         </div>
-        <div class="image-container">
-          <img
-            class="blur"
-            src="https://preview.redd.it/snow-white-is-this-just-an-albo-v0-vw4barjpl2pe1.jpg?width=640&crop=smart&auto=webp&s=bfcda0770cc4806f86886d81c76343aa9f069f08"
-          />
-          <img
-            class="cover"
-            src="https://preview.redd.it/snow-white-is-this-just-an-albo-v0-vw4barjpl2pe1.jpg?width=640&crop=smart&auto=webp&s=bfcda0770cc4806f86886d81c76343aa9f069f08"
-          />
+        <div class="frame-inner">
+          <section class="top">
+            <div class="dropdown">
+              <img class="undraggable" src="src/dropdown.png" />
+              <div class="dropdown-content">
+                <a href="#">Item 1</a>
+                <a href="#">Item 2</a>
+                <a href="#">Item 3</a>
+              </div>
+            </div>
+            <h5>Moje roślinki</h5>
+            <div class="dropdown-left">
+              <img class="undraggable" src="src/more.png" />
+              <div class="dropdown-content">
+                <a href="https://en.wikipedia.org/wiki/Monstera_deliciosa"
+                  >Wikipedia</a
+                >
+              </div>
+            </div>
+          </section>
+          <div class="image-container">
+            <img class="cover undraggable" src="src/monstera-thai.webp" />
+            <img class="blur undraggable" src="src/monstera-thai.webp" />
+          </div>
+          <section class="description">
+            <h3>Marlena</h3>
+            <h5>Monstera deliciosa</h5>
+          </section>
+          <section class="progress">
+            <div class="progress-bar">
+              <div class="progress-bar-fill"></div>
+            </div>
+            <div class="progress-text">
+              <p>Ostatnie podlanie</p>
+              <p>XX:XX:XX</p>
+            </div>
+          </section>
         </div>
       </div>
+      <div class="background"></div>
     </main>
   </body>
 </html>
