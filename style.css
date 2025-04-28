@@ -131,6 +131,12 @@ h5 {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.dropdown-left .dropdown-content {
+  right: 0;
+}
+.dropdown-left:hover .dropdown-content {
+  display: block;
+}
 .top {
   padding: 0px 20px 0px 20px;
   display: flex;
