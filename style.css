@@ -49,6 +49,7 @@ section {
   z-index: 3;
   overflow: hidden;
 }
+
 .frame-inner {
   background-color: var(--green-50);
   position: absolute;
@@ -58,7 +59,8 @@ section {
   bottom: 10px;
   transform: translateX(-50%);
   z-index: 1;
-  overflow: hidden;
+  overflow-y: auto;
+  scrollbar-width: none;
 }
 .frame-outer::after {
   content: "";
