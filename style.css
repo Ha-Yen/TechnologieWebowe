@@ -169,6 +169,11 @@ p {
 .progress {
   padding: 0px 20px 0px 20px;
 }
+.progress-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .undraggable {
   user-select: none;
