@@ -266,8 +266,13 @@ button {
 }
 
 .days div.today {
-  background-color: #a6c36f; /* Your --green-20 color */
+  background-color: --green-10;
   color: white;
+}
+.days div.watered {
+  background-color: var(--green-30);
+  color: var(--green-50);
+  font-weight: bold;
 }
 .calendar {
   justify-content: center;
