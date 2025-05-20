@@ -47,17 +47,94 @@ function getSavedPlants() {
           name: "Marlena",
           species: "Monstera deliciosa",
           lastWateringDate: new Date().toISOString(),
-          coverImageSrc: "src/monstera-thai.webp",
+          coverImageSrc: "src/monstera_deliciosa_1.webp",
           wikipediaUrl: "https://en.wikipedia.org/wiki/Monstera_deliciosa", // Add Wikipedia URL
         },
         {
           name: "Madzia",
           species: "Monstera deliciosa",
           lastWateringDate: new Date().toISOString(),
-          coverImageSrc: "src/madzia.webp",
+          coverImageSrc: "src/monstera_deliciosa_2.webp",
           wikipediaUrl: "https://nl.wikipedia.org/wiki/Monstera_deliciosa",
         },
-        // Add more plants with their respective wikipediaUrl
+        {
+          name: "Monika",
+          species: "Monstera deliciosa",
+          lastWateringDate: new Date().toISOString(),
+          coverImageSrc: "src/monstera_deliciosa_3.webp",
+          wikipediaUrl: "https://nl.wikipedia.org/wiki/Monstera_deliciosa",
+        },
+        {
+          name: "Tajka",
+          species: "Monstera deliciosa thai constellation",
+          lastWateringDate: new Date().toISOString(),
+          coverImageSrc: "src/monstera_deliciosa_thai.webp",
+          wikipediaUrl: "https://nl.wikipedia.org/wiki/Monstera_deliciosa",
+        },
+        {
+          name: "Dziurawiec",
+          species: "Monstera esqueleto/epipremnoides",
+          lastWateringDate: new Date().toISOString(),
+          coverImageSrc: "src/monstera_esqueleto.webp",
+          wikipediaUrl: "https://en.wikipedia.org/wiki/Monstera_epipremnoides",
+        },
+        {
+          name: "Sanderka",
+          species: "Calathea sanderiana",
+          lastWateringDate: new Date().toISOString(),
+          coverImageSrc: "src/calathea_sanderiana.webp",
+          wikipediaUrl: "https://en.wikipedia.org/wiki/Goeppertia_sanderiana",
+        },
+        {
+          name: "Kaletka",
+          species: "Calathea burle marx",
+          lastWateringDate: new Date().toISOString(),
+          coverImageSrc: "src/calathea_burle_marx.webp",
+          wikipediaUrl:
+            "https://en.wikipedia.org/w/index.php?search=Burle+Marx+Calathea&title=Special%3ASearch&ns0=1",
+        },
+        {
+          name: "Fiona",
+          species: "Fittonia",
+          lastWateringDate: new Date().toISOString(),
+          coverImageSrc: "src/fittonia.webp",
+          wikipediaUrl: "https://en.wikipedia.org/wiki/Fittonia",
+        },
+        {
+          name: "Burrito",
+          species: "Sedum morganium",
+          lastWateringDate: new Date().toISOString(),
+          coverImageSrc: "src/sedum_morganianum .webp",
+          wikipediaUrl: "https://en.wikipedia.org/wiki/Sedum_morganianum",
+        },
+        {
+          name: "Zenek",
+          species: "Zamioculcas",
+          lastWateringDate: new Date().toISOString(),
+          coverImageSrc: "src/zamioculcas.webp",
+          wikipediaUrl: "https://en.wikipedia.org/wiki/Zamioculcas",
+        },
+        {
+          name: "Zbyszek",
+          species: "Spathiphyllum",
+          lastWateringDate: new Date().toISOString(),
+          coverImageSrc: "src/spathiphyllum.webp",
+          wikipediaUrl: "https://en.wikipedia.org/wiki/Zamioculcas",
+        },
+        {
+          name: "Bolek",
+          species: "Haworthia attenuata",
+          lastWateringDate: new Date().toISOString(),
+          coverImageSrc: "src/haworthia_1.webp",
+          wikipediaUrl: "https://en.wikipedia.org/wiki/Haworthiopsis_attenuata",
+        },
+        {
+          name: "Lolek",
+          species: "Haworthia attenuata",
+          lastWateringDate: new Date().toISOString(),
+          coverImageSrc: "src/haworthia_2.webp",
+          wikipediaUrl: "https://en.wikipedia.org/wiki/Haworthiopsis_attenuata",
+        },
       ];
 }
 
